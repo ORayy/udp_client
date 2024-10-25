@@ -18,6 +18,3 @@ data, addr = client.recvfrom(4096)
 # close socket
 print(data.decode())
 client.close()
-    
-
-
